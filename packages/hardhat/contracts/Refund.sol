@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-
 contract Refund is ReentrancyGuard, AccessControl {
   // User roles.
   bytes32 public constant MEMBER_ROLE = keccak256("MEMBER");
